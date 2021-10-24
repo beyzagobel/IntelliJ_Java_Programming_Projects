@@ -5,8 +5,12 @@ public class ByteShortChar_IntDonusum {
         // TİP DÖNÜŞTÜRÜCÜ OLARAK + OPERATÖRÜ
         // short , char , byte 'ın önüne gelen + operatörü bu tipleri integer a çevirir.
 
+        // byte short char -> İNT
+
+
         char c='a';   // çift tırnak kabul etmez char için tek tırnak kullanılır
         int i1= +c;
+
         System.out.println(i1);
 
 

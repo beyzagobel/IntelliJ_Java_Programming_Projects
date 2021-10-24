@@ -2,7 +2,7 @@ package firstpackage;
 
 public class CompareToKullanimi {
     public static void main(String[] args) {
-        // nesneleri karşılaştırır.
+        // Integer tipindeki nesneleri karşılaştırır.
         // karşılaştırdığımız veri eldeki veriden büyükse -1, eşitse 0, küçükse 1 basar ekrana
 
         Integer i=5;

@@ -3,14 +3,13 @@ package number_string_tip_donusumleri;
 public class StringMethodu {
     public static void main(String[] args) {
 
-        // toString(metodu uygulayarak farklı veri tiplerini metinsel ifadelere dönüştürmüş olduk)
+        // toString() metodu uygulayarak farklı veri tiplerini metinsel ifadelere dönüştürülür
+
         int i=1;
         double d=0.2;
         float f=0.3f;
         short s=4;
         byte b=5;
-
-
 
      //   Float float=0.45;   böyle bir atama yapamazsın
 
