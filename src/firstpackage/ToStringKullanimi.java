@@ -3,17 +3,25 @@ package firstpackage;
 public class ToStringKullanimi {
     public static void main(String[] args) {
 
-        // toString() metodu  nesnelerin metin karşılıklarını ekrana basar
+        /*
+        4 şekilde toString methodunu kullanabiliiriz
+         */
 
         Integer i=5;
-        System.out.println(i.toString());
-        Double d=0.5;
-        System.out.println(d.toString());
+        String s= Integer.toString(i);   // üye method  üzerinden
+        System.out.println(s);
 
-        float f=.23f;
-        System.out.println(Float.toString(f));
+        Byte b= 5;
+        System.out.println(b.toString());   // üye method üzerinden
 
-        // buradaki veri tipleri sarıcı sınıf olmak zorundadır çünkü toString methodu nesnelerde kullanılabilir.
+        System.out.println(Double.toString(0.34));   // Sarıcı sınıflar üzerinden
+
+        Float f=new Float(0.34f);
+        System.out.println(f.toString());
+
+        Short s2=new Short((short)6);
+        System.out.println(s2.compareTo(Short.parseShort(s)));   // string olduğu için parse metodu kullanılabilr
+        // s2=6 ve s=5 6>6 olduğu için 1 değeri döner
 
 
     }

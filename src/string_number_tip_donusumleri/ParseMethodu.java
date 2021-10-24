@@ -2,12 +2,10 @@ package string_number_tip_donusumleri;
 
 public class ParseMethodu {
     public static void main(String[] args) {
-        // string ifadeleri, PRİMİTİVE number ifadelere dönüştürmek için Number Sınıflarının Parse metodları kullanılır.
 
-
-        // int sayi=Integer.parseInt("metin");
-        // System.out.println(sayi);
-        // bu iki paragraf derleme hatası vermez fakat çalışma zamanı hatası verir çünkü böyle birşey mantıken olamaz
+        // String ifadeleri, PRİMİTİVE number ifadelere dönüştürmek için ,Number Sınıflarının Parse metodları kullanılır.
+        // PARSE(string) şeklinde yazılmalıdır.
+        // int sayi=Integer.parseInt("metin")  Bu paragraf derleme hatası vermez fakat çalışma zamanı hatası verir çünkü böyle birşey mantıken olamaz
 
         String s="12";
         int metinInt=Integer.parseInt(s);  //s String ini Integer sınıfındaki parseInt metodunu kullanarak int dönüştür demektir  // üye metod
@@ -31,6 +29,12 @@ public class ParseMethodu {
 
         byte b=Byte.parseByte(s);
         System.out.println(b);
+
+        Integer zalim=new Integer(9);
+
+        System.out.println(Long.parseLong(zalim.toString()));    // toString() metodu ile İNT olan zalim > STRİNG oldu > parseLong ile string tipindeki zalim  LONG oldu
+
+
 
 
 

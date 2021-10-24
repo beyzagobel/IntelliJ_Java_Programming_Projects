@@ -10,7 +10,6 @@ public class ByteShortChar_IntDonusum {
 
         char c='a';   // çift tırnak kabul etmez char için tek tırnak kullanılır
         int i1= +c;
-
         System.out.println(i1);
 
 
