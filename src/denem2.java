@@ -8,7 +8,7 @@ public class denem2 {
         String sayi= scanner.nextLine();
 
 
-      /*  public int tahminEt(){
+      /*  public int tahminEt(){æ
             Random random=new Random(100);
            // int sayi= random.nextInt();
 
