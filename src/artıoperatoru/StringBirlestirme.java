@@ -1,13 +1,14 @@
-package firstpackage;
+package artıoperatoru;
 
 public class StringBirlestirme {
     public static void main(String[] args) {
 
         // + KARAKTER DİZİLERİNİ BİRLEŞTİRİR
 
-        String ad,soyad,adSoyad;
+        String ad,soyad;
         ad="Beyza";
-        soyad="Göbel";
+        soyad="Gobel";
+        String adSoyad;
         adSoyad=ad+soyad;
         adSoyad=ad+" "+soyad;
 

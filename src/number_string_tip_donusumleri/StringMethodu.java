@@ -10,7 +10,14 @@ public class StringMethodu {
         short s=4;
         byte b=5;
 
-        Character c='g';
+
+
+     //   Float float=0.45;   böyle bir atama yapamazsın
+
+
+
+        Character c;
+        c = 'g';
         String metinChar=c.toString();  // bu şekildede nesne üzerinden erişilerek tip dönüşümü yapılabilir.  //  üye method
         System.out.println(metinChar);
 
