@@ -1,4 +1,4 @@
-package firstpackage;
+package wrappersınıflar;
 
 public class CompareToKullanimi {
     public static void main(String[] args) {
