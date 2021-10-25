@@ -14,5 +14,8 @@ public class IndexOfMetodu {
         System.out.println(s2.indexOf("haba")); // bu şekilde haba kelimesi var ise sadece h karakterinin index değerini döndürür //3
         System.out.println(s2.indexOf("hap"));// fakat öyle ir kelime yoksa -1 basar ekrana hata vermez  // -1
 
+        String s3="selamınaleyküm";
+        System.out.println(s3.indexOf(0)); // int ve STİRNG
+
     }
 }
