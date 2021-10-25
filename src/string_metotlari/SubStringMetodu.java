@@ -12,5 +12,12 @@ public class SubStringMetodu {
         System.out.println(str.substring(4,8));  // 4.index dahil 8. index dahil değil   // aba
         System.out.println(str.substring(4,9));  // 4.index dahil 9. index dahil değil   // aba b
 
+        String s1="Adana";
+        String s2="ana";
+        s1=s1.substring(2);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s1==s2);    //NEDEN FALSE ????
+
     }
 }
