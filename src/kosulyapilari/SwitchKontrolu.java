@@ -1,7 +1,8 @@
-package metodlar;
+package kosulyapilari;
 
-public class TahminEt {
+public class SwitchKontrolu {
     public static void main(String[] args) {
+
 
     }
 }
