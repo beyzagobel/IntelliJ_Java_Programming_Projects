@@ -1,21 +1,16 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class denem2 {
-
     public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
-        System.out.println("boh ye:");
-        String sayi= scanner.nextLine();
+        boolean sonuc=tahminEt(3);
 
-
-      /*  public int tahminEt(){æ
-            Random random=new Random(100);
-           // int sayi= random.nextInt();
-
-        }
-*/
-
-
-
+    }
+    public static boolean tahminEt(int ustSinir){
+        Random random=new Random(3);
+        int rastgeleSayi=random.nextInt();
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("0 ile "+ustSinir+" arasında ("+ustSinir+") hariç bir tamsayı giriniz: ");
+        return  true;
     }
 }

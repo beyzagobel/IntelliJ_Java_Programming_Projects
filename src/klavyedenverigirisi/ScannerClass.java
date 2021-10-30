@@ -1,6 +1,6 @@
 package klavyedenverigirisi;
 
-import java.util.Scanner;
+import java.util.Scanner;    // java.util paketi altındaki Scanner sınıfına erişim demektir
 
 public class ScannerClass {
     public static void main(String[] args) {

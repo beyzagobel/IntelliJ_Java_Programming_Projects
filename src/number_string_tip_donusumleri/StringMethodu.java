@@ -17,8 +17,6 @@ public class StringMethodu {
         System.out.println(metinChar);
 
 
-
-
         String metinInt=Integer.toString(i); // sınıf üzerinden erişim  // static metod
         System.out.println(metinInt);
 
