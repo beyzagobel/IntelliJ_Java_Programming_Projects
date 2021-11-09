@@ -1,4 +1,4 @@
-package artıoperatoru;
+package artıoperatoru02;
 
 public class StringBirlestirme {
     public static void main(String[] args) {

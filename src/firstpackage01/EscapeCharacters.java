@@ -1,4 +1,4 @@
-package firstpackage;
+package firstpackage01;
 
 public class EscapeCharacters {
     public static void main(String[] args) {

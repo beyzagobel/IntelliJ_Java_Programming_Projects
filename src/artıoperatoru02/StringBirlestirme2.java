@@ -1,6 +1,6 @@
-package firstpackage;
+package artıoperatoru02;
 
-public class AdSoyadYas {
+public class StringBirlestirme2 {
     public static void main(String[] args) {
         // Adım..... , Soyadım......, Yasım..... yazdıran program
 
