@@ -2,13 +2,14 @@ package diziler.tekboyutludiziler;
 
 import java.util.Scanner;
 
-public class Ornek1<j> {
+public class Ornek1 {
     public static void main(String[] args) {
         /*
         * Değerleri arasında index ile üzerinde gezinilenebiliriz
         * Dizilerin tüm elemanları aynı tipte olmak zorundadır.
         * İndexleme 0'dan başlar, n elemanlı bir dizi için n-1 'de biter.
-        Tüm dizi yapıları, nesne tipindedir.
+        * Tüm dizi yapıları, nesne tipindedir.
+
 
        DiziTipi DiziAdi[] = new DiziTipi [eleman sayısı]
 
