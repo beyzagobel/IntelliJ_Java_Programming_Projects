@@ -9,16 +9,23 @@ public class Kisaltilmis_If_Else {
          */
 
         // 1. kısım uzun hali
-        int a = 5;
+        int a = 2;
         int b = 4;
+        int min;
 
-        if(a==5){
-            a=b;
+        if(a<b){
+            min = a ;
+            System.out.println(min);;
         }else{
-            a=a+b;
+            min = b ;
+            System.out.println(min);;
         }
 
         // 2. kısım kısaltılmış hali
+
+        int min2 = a < b ? a : b ;
+        // " eğer a'nın değeri b'nin değerinden küçük ise min = a , değilse min =b olucak " demektir
+        System.out.println(min);
 
 
 
