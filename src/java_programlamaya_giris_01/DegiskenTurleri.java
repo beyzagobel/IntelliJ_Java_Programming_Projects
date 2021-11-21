@@ -28,8 +28,8 @@ public class DegiskenTurleri {
 
 
 
-        DegiskenTurleri nesneolustu=new DegiskenTurleri();
-        String ad1 = nesneolustu.ad;   // bu şekilde glonal değişkene nesne üzerinden erişilebilir.
+        DegiskenTurleri nesneolustu = new DegiskenTurleri();
+        String ad1 = nesneolustu.ad;   // bu şekilde global değişkene nesne üzerinden erişilebilir.
 
     }
     public static int topla(int a,int b){    // a ve b değişkeni YEREL DEĞİŞKEN

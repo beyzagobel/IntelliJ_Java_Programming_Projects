@@ -8,9 +8,12 @@ public class JavadaVeriTipleri {
         Javada Veri Tipleri - 3 tanedir:
          * İlkel (Primitive) Veri Tipleri : byte, short, int, long, float, double, char, boolean - 8 tane
          * Referans Veri Tipleri : Referans tiplerde, değişkenlerin adresleri tutulur. "new" anahtar sözcüğü ile oluşturulur.
-           Array , Interface , Class(String) - 3 tane
+           Array(dizi) , Interface , Class(String) - 3 tane
          * Null Veri Tipi : (Boş Değer) bir değişkenin herhangi bir yeri işaret etmemesi veya hiçbir değer tutmamasıdır.
           “0” ile null aynı değildir ve farklı şekilde davranırlar.
+
+          NOT : GLOBAL VE STATİC DEĞİŞKENLER VARSAYILAN DEĞER ALIRLAR.
+                YEREL DEĞİŞKENLER İSE KULLANILMADAN ÖNCE MUTLAKA DEĞER ATANMALIDIR. AKSİ TAKTİRDE PROGRAM DERLENMEZ.
          */
 
         // Primitiveler
@@ -26,12 +29,16 @@ public class JavadaVeriTipleri {
 
         // Referans Veri Tipleri (String ile sınırlı):
 
-        String nesne1="Merhaba !",myWeb="www.emrecelen.com.tr";
-        JavadaVeriTipleri nesne2= new JavadaVeriTipleri();
+        String nesne1="Merhaba !";
+
+        JavadaVeriTipleri nesne2= new JavadaVeriTipleri();   // sınftan nesne türetme
+
+        int [] dizi = new int[5];    // dizi tanımlama
 
         // Null Veri Tipi
 
         String ad= null;
+
         if(ad==null){
             System.out.println("ad değişkeninin veri tipi null 'dır.");
         }

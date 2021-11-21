@@ -2,7 +2,11 @@ package java_programlamaya_giris_01;
 
 public class StackHeapOrnek {
 
-    /* ÖRNEK :
+    /*
+     * Stack : Metodlar ve yerek primitive değişkenler bu bellek bölgesined tutulur.
+     * Heap : Nesneler ve global değişkenler bu bellek bölgesinde tutulur.
+
+     ÖRNEK :
      * sayi1 , sayi2 , sayi3 , carpan , t , nesne1 değişkenlerinin hangi bellek bölgelesinde tutulur? Açıklayınız.
      */
 
@@ -17,6 +21,8 @@ public class StackHeapOrnek {
     public void carp(double carpan, StackHeapOrnek t){
 
     }
+
+
 
 }
 

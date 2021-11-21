@@ -37,6 +37,7 @@ public class SariciSinifParseMetodu {
         System.out.println(Long.parseLong(i.toString()));    // toString() metodu ile İNT olan i > STRİNG oldu > parseLong ile string tipindeki zalim  LONG oldu
 
 
+
     }
 }
 
