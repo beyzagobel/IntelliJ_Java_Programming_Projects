@@ -6,7 +6,7 @@ public class SwitchKontrolu {
         /*
         - Kontrol değişkenine bağlı olarak birden fazla kod bloğuunun yürütülmesini sağlayam kontroldür.
         - break komutuyla karşılaşıncaya kadar yürütme değer kod bloklarıyla devam eder.
-        - Değişken tiperi byte, short, char, inti enum veya String olmalıdır
+        - Değişken tiperi byte, short, char, int i enum veya String olmalıdır
         - Hiçbir değer kontrol ifadesi sağlanmasında default kod bloğu işletilir.
         */
 
@@ -22,5 +22,7 @@ public class SwitchKontrolu {
                 System.out.println("Değer hiçbir şartla eşleştirilemedi. ");
                 break;
         }
+
+
     }
 }
