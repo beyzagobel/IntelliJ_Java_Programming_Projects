@@ -5,7 +5,11 @@ public class Ornek2 {
     String adSoyad;
     int yas;
 
+    public  Ornek2(){
+        System.out.println("selam");
+    }
     public Ornek2(String adSoyad,int yas){
+        this();
         this.adSoyad = adSoyad;
         this.yas = yas;
     }

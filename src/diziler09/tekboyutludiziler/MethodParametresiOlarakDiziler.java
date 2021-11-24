@@ -17,6 +17,7 @@ public class MethodParametresiOlarakDiziler {
         System.out.println("Tanımladığınız "+diziElemanSayisi+" elemanlı dizinin toplamı :"+toplam);
 
 
+
     }
 
     // Toplama işlemini yapan fonksiyon

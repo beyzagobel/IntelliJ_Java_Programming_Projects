@@ -4,6 +4,7 @@ public class Ornek1 {
     String adSoyad;
     int yas;
 
+
     public static void main(String[] args) {
         Ornek1 ornek1 = new Ornek1();
         ornek1.adSoyad ="beyza gobel";

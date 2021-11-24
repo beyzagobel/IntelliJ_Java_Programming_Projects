@@ -11,34 +11,31 @@ public class OgrenciNot {
         return adSoyad;
     }
     public void setAdSoyad(String adSoyad){
-        this.adSoyad=adSoyad;
+        this.adSoyad = adSoyad ;
     }
-    public int getOdevNotu(){
+    public Integer getOdevNotu(){
         return odevNotu;
     }
-    public void setOdevNotu(int odevNotu){
-        this.odevNotu=odevNotu;
-        this.genelOrtalama = Double.valueOf(odevNotu);
-        System.out.println("Genel Ortalama : " + this.genelOrtalama);
-    }
-    public int getVizeNotu(){
+    public Integer getVizeNotu(){
         return vizeNotu;
     }
-    public void setVizeNotu(int vizeNotu){
-        this.vizeNotu=vizeNotu;
-        this.genelOrtalama = (this.odevNotu + this.vizeNotu) / 2.0d;
-        System.out.println("Genel Ortalama : " + this.genelOrtalama);
-    }
-    public int getFinalNotu(){
+    public Integer getFinalNotu(){
         return finalNotu;
     }
-    public void setFinalNotu(int finalNotu){
-        this.finalNotu=finalNotu;
-        this.genelOrtalama =( this.odevNotu + this.vizeNotu + this.finalNotu) / 3.0d;
-        System.out.println("Genel Ortalama : " + this.genelOrtalama);
+    public void setOdevNotu(Integer odevNotu){
+        this.odevNotu = odevNotu ;
+        this.genelOrtalama = odevNotu ;
+        System.out.println("Genel Ortalama : " + genelOrtalama);
     }
-    public double getGenelOrtalama(){
-        return genelOrtalama;
+    public void setVizeNotu(Integer vizeNotu){
+        this.vizeNotu = vizeNotu ;
+        this.genelOrtalama = ( vizeNotu + odevNotu ) / 2.0d;
+        System.out.println("Genel Ortalama : " + genelOrtalama);
+    }
+    public void setFinalNotu(Integer finalNotu){
+        this.finalNotu =finalNotu;
+        this.genelOrtalama = (vizeNotu + odevNotu + finalNotu) / 3.0d;
+        System.out.println("Genel Ortalama : " + genelOrtalama);
     }
     public static void main(String[] args) {
         /*

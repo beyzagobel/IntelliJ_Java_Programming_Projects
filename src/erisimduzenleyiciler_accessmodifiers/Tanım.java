@@ -9,7 +9,7 @@ public class Tanım {   // Sınıflar protected veya private olamazlar
      * protected : Alt sınıflar(farklı pakette olsalar bile) veya aynı pakettekiler erişebilir.
      * default : Aynı pakettekiler erişebilir.
      * private -> default -> protected -> public   = ERİŞİLEBİLİRLİK ARTAR
-     * SINIF SEVİYESİNDE SADECE PUBLİC VE DEFAILT ERİŞİM DÜZENLEYİCİLERİ KULLANILABİLİR.
+     * SINIF SEVİYESİNDE SADECE PUBLİC VE DEFAULT ERİŞİM DÜZENLEYİCİLERİ KULLANILABİLİR.
      */
 
     int a ;            // default erişim
@@ -33,7 +33,7 @@ public class Tanım {   // Sınıflar protected veya private olamazlar
         tanım.b = 20 ;
 
         tanım.setc(100);  // c ye değer atamak ve erişmek için get ve set metodları kullanılabilir.
-        tanım.c = 34;  // diyerekde erişilebilir
+        tanım.c = 34;  // diyerek de erişilebilir
 
         System.out.println("a , b and c : " + tanım.a + " " + tanım.b + " " + tanım.getc());
     }
