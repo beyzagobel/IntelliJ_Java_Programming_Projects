@@ -12,9 +12,10 @@ public class NesnelerdeReferans {
         private int ogrenciNo;
         private int kredi;
 
-    public NesnelerdeReferans(){}
 
-    public NesnelerdeReferans(String ad, String soyAd, int ogrenciNo, int kredi){
+        public NesnelerdeReferans(){}
+
+        public NesnelerdeReferans(String ad, String soyAd, int ogrenciNo, int kredi){
             this.ad = ad;
             this.soyAd = soyAd;
             this.ogrenciNo = ogrenciNo;

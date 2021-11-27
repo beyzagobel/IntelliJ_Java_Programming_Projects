@@ -3,14 +3,14 @@ package metodlar;
 public class Ornek {
 
     /*
-     * Değişkelerin orjinal değeri metod içinde değişemezler.
+     * Değişkenlerin orjinal değeri metod içinde değişemezler.
      */
 
     private int sayi ;
 
     public Ornek(int sayi){
         this.sayi = sayi ;
-    }
+    }   // yapıcı metod
 
     public int SayiDegistir(int sayi){
         sayi++ ;   // yerel değişken olan sayi'nın değeri değişti
@@ -30,7 +30,6 @@ public class Ornek {
         Ornek nesne1 = new Ornek(5);  // nesne1'in sayi değişkeninin değeri = 5
 
         nesne1.SayiDegistir(nesne1.sayi);
-
 
         System.out.println(nesne1.sayi);   // 5 değeri değişmedi
 

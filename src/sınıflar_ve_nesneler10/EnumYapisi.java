@@ -8,6 +8,10 @@ public class EnumYapisi {
         Il il = Il.DUZCE;
         System.out.println("İl : " + il.getAdi());
         System.out.println("İl Plaka Kodu : " + il.getPlakaKodu());
+
+        Il il2 = Il.ANKARA;
+        System.out.println("İl : " + il2.getAdi());
+        System.out.println("İl Plaka Kodu : " + il2.getPlakaKodu());
     }
     public enum Il{
 
@@ -30,3 +34,14 @@ public class EnumYapisi {
     }
 
 }
+
+/*
+
+ Çıktı :
+
+İl : Düzce
+İl Plaka Kodu : 81
+İl : Ankara
+İl Plaka Kodu : 06
+
+ */

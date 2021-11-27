@@ -2,12 +2,12 @@ package sınıflar_ve_nesneler10;
 
 import java.util.Objects;
 
-public class EqualsIleNesnelerdeEsitlik {
+public class NeslerdeIcerikKontrolu {
 
-    public String cpu;
-    public String memory;
-    public  String disk;
-    public String ekran;
+    private String cpu;
+    private String memory;
+    private  String disk;
+    private String ekran;
 
     /*
      Override Edilmemiş equals() metodu :
@@ -23,7 +23,7 @@ public class EqualsIleNesnelerdeEsitlik {
 
         if(this == obj) return  true;
         if(obj == null || getClass() != obj.getClass()) return false ;
-        EqualsIleNesnelerdeEsitlik diger = (EqualsIleNesnelerdeEsitlik) obj ;
+        NeslerdeIcerikKontrolu diger = (NeslerdeIcerikKontrolu) obj ;
         return Objects.equals(cpu,diger.cpu) &&
                 Objects.equals(memory,diger.memory) &&
                 Objects.equals(disk,diger.disk) &&
@@ -46,13 +46,13 @@ public class EqualsIleNesnelerdeEsitlik {
          * Nesne eşitlik kontrolü yapılırken hem equals hem de hashCode metodları override edilmesi gerekir.
          */
 
-        EqualsIleNesnelerdeEsitlik b1 = new EqualsIleNesnelerdeEsitlik();
+        NeslerdeIcerikKontrolu b1 = new NeslerdeIcerikKontrolu();
         b1.cpu ="A";
         b1.memory ="B";
         b1.disk ="C";
         b1.ekran ="D";
 
-        EqualsIleNesnelerdeEsitlik b2 = new EqualsIleNesnelerdeEsitlik();
+        NeslerdeIcerikKontrolu b2 = new NeslerdeIcerikKontrolu();
         b2.cpu = "A";
         b2.memory = "B";
         b2.disk = "C";
