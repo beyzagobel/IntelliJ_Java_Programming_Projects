@@ -12,6 +12,7 @@ public class Kedi extends Hayvan{
     public static void main(String[] args) {
 
         Kedi kedi = new Kedi("Tekir");
+        System.out.println(kedi.yas);  // hayvan sınıfının değişkeni olan yas ddeğişkeni kedi nesnesi üzerinden erişilmiş
     }
 }
 

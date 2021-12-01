@@ -12,8 +12,18 @@ public class AkademikPersonal extends Personal {
     }
 
     public static void main(String[] args) {
-        AkademikPersonal akademikPersonal = new AkademikPersonal("beyxza","göbel");
+        AkademikPersonal akademikPersonal = new AkademikPersonal("beyza","gobel");
 
     }
 
 }
+
+/*
+
+ÇIKTI :
+
+SuperClass yapıcı metodu
+SubClass yapıcı metodu
+
+
+ */

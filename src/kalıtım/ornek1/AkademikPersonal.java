@@ -17,14 +17,9 @@ public class AkademikPersonal extends Personal {
 
 
     public AkademikPersonal() {
-        // super();  kapalı olarak üst sınıfın yapıcısını çağırır ilk olarak orası okunur
+        // super();  kapalı olarak üst sınıfın yapıcısını çağırır ve ilk olarak orası okunur
         System.out.println("Default Constracter SubClass");
     }
-
-
-
-
-
 
     public static void main(String[] args) {
 
@@ -39,6 +34,7 @@ public class AkademikPersonal extends Personal {
         akademikPersonal.setSoyisim("Mehmet");
         akademikPersonal.setAkademikUnvan("Doç. Dr. ");
         akademikPersonal.yazdir();
+
 
 
     }

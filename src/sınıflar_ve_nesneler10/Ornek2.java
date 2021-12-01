@@ -17,5 +17,8 @@ public class Ornek2 {
         Ornek2 ornek2 = new Ornek2("beyza gobel",23);
         System.out.println(ornek2.adSoyad);
         System.out.println(ornek2.yas);
+
+
+
     }
 }

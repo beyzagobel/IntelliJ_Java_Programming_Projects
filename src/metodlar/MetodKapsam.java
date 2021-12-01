@@ -1,4 +1,6 @@
-public class deneme3 {
+package metodlar;
+
+public class MetodKapsam {
 
     static int sayi = 5 ;
 

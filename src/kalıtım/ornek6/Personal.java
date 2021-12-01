@@ -11,16 +11,5 @@ public class Personal {
         this.soyisim = soyisim ;
         System.out.println("SuperClass yapıcı metodu");
     }
-    public void setIsim(){
-        this.isim = isim ;
-    }
-    public String getIsim(){
-        return  isim;
-    }
-    public void setSoyisim(String isim){
-        this.soyisim =  soyisim;
-    }
-    public String getSoyisim(){
-        return soyisim;
-    }
+
 }

@@ -17,6 +17,10 @@ public class Tanım {
      * Bir yapıcı metod içinde açık olarak super() çağrısı yapılacak ise mutlaka bu çağrı ilk komutta olmalıdır.
      * super() çağrısı, ata sınıfın ilgili yapıcısı ile parametreler bakımından eşleşmelidir.
      * this : Çağrıldığı sınıfı işaret eder. this() : Mevcut sınıfın yapıcısını çağırır.
+     *
+     * Alt sınıf ata sınıfın private alanlarına erişemez. Private metodlar override edilemez
+     bu yüzden ata sıınıftaki private metod alt sınıftada tanımlanırsa  ata sınıf böyle bir sınıfı hiç tanımlamamış gibi değerlendirir.
+     * Static metodlar alt sınıfa aktarılır fakat OVERRİDE EDİLEMEZ.
      */
 
 }

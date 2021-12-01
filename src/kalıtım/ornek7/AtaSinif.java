@@ -1,12 +1,15 @@
 package kalıtım.ornek7;
 
-public class UstSinif {
+public class AtaSinif {
 
-    public UstSinif(){
+    public AtaSinif(){
         System.out.println("Üst sınıfın default kurucu metodu");
     }
 
-    public UstSinif(int i){
+    public AtaSinif(int i){
         System.out.println("Üst sınıfın parametreli kurucu metodu");
+    }
+    private static void yazdir(){
+        System.out.println("static ata sınıf metodu");
     }
 }

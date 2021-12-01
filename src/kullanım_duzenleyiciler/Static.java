@@ -36,7 +36,7 @@ public class Static {
         System.out.println(this.sayi2);  // gloabal değişken olan sayi2'nin varswayılan değeri = 0
         this.sayi2++;
         System.out.println(this.sayi2);
-        sayiEkle();
+        sayiEkle();  // static bir  metoda  he yerden erişim sağlanabilir
     }
 
     static {

@@ -8,7 +8,7 @@ public class Kedi extends Hayvan{
     }
 
     public static void main(String[] args) {
-        Kedi kedi = new Kedi(); // derleyici ilk olarak miras alınan sınıfın yapıcı metodunu çağırır.
+        Kedi kedi = new Kedi(); // derleyici ilk olarak varsa miras alınan sınıfın yapıcı metodunu çağırır.
     }
 }
 /*
