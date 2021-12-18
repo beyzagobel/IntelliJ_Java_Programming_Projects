@@ -1,15 +1,19 @@
-package kalıtım.ornek7;
+package kalıtım.overriding_static;
 
 public class AtaSinif {
 
     public AtaSinif(){
+
         System.out.println("Üst sınıfın default kurucu metodu");
     }
 
     public AtaSinif(int i){
+
         System.out.println("Üst sınıfın parametreli kurucu metodu");
     }
-    private static void yazdir(){
-        System.out.println("static ata sınıf metodu");
+
+    public static void yazdir(){
+
+        System.out.println("Ata sınıf statis yazdır metodu");
     }
 }
